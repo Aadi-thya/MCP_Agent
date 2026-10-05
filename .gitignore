@@ -1,0 +1,17 @@
+@"
+.env
+.env.*
+!.env.example
+
+.venv/
+venv/
+
+__pycache__/
+*.py[cod]
+
+schema_cache.json
+
+.vscode/
+.idea/
+.DS_Store
+"@ | Set-Content -Path .gitignore
